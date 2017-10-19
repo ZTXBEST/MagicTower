@@ -1,0 +1,23 @@
+//
+//  Tower-Prefix.pch
+//  MagicTower
+//
+//  Created by 赵天旭 on 2017/8/18.
+//  Copyright © 2017年 ZTX. All rights reserved.
+//
+
+#ifndef Tower_Prefix_pch
+#define Tower_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Tower_Prefix_pch */
+
+#import "Macro.h"
+#import "ProgressHUD.h"
+
+// 暂停方向控制的连续性
+#define NOTI_StopControllerTimer @"NOTI_StopControllerTimer"
+// 到达某一层 object：NSNumber
+#define NOTI_RunToFloor @"NOTI_RunToFloor"
